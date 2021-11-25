@@ -1,6 +1,5 @@
-import React, { useContext, useRef } from 'react'
-import { useState } from 'react/cjs/react.development';
-import noteContext from '../context/notes/noteContext'
+import React, { useContext, useRef, useState } from 'react';
+import noteContext from '../context/notes/noteContext';
 
 
 export default function AddNote() {
