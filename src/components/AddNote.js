@@ -9,7 +9,7 @@ export default function AddNote() {
     // destructuring of context
     const { addnote } = context;
 
-    const [note, setNote] = useState({ title: "", description: "", tag: "" })
+    const [note, setNote] = useState({ title: "", description: "", tag: "" });
     const onchange = (e) => {
         setNote({ ...note, [e.target.name]: e.target.value });
     }
